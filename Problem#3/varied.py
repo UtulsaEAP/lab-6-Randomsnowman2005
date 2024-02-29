@@ -1,3 +1,4 @@
+#Mohamad Ali fakhoury @Thurs 2pm
 def process_input(input_string):
       # Split into separate strings
 
