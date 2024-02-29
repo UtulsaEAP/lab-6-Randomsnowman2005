@@ -1,20 +1,23 @@
 #Mohamad Ali fakhoury @Thurs 2pm
 def process_input(input_string):
-      # Split into separate strings
-
-    # Convert strings to floats
-    
-
-    # Get max and average
-    max_value = 0
-    average_value = 0
-    return max_value, average_value
+  inputs = input_string.split()
+  x = 0
+  while x < len(inputs):
+     z = float(inputs[x])
+     inputs[x] = z
+     x = x+1
+  else:
+   inputs.sort(reverse = True)
+   max_value = inputs[0]
+   dem = 0
+   for x in range(len(inputs)):
+    dem =  dem + inputs[x]
+   average_value = dem/len(inputs)
+   return max_value, average_value
 
 if __name__ == "__main__":
-    # User inputs string w/ numbers
     user_input = input("Enter a space-separated string of numbers: ")
 
-    # Call the function and get the results
     max_value, average_value = process_input(user_input)
 
     print(f'Max Value: {max_value:.2f}')
