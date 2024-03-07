@@ -28,7 +28,8 @@ def process_and_print(input_string):
         else:
           x=x+1
      else:
-        print(' '.join(fin))
+        final = ' '.join(fin)
+        print(f'{final} ' )
         
    
     
