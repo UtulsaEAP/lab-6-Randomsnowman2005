@@ -1,7 +1,17 @@
 # Mohamad Ali fakhoury @ 2pm
 def in_order(nums):
-    # Type your code here.
     x=0
+    while x <= len(nums)-2:
+        if nums[x] > nums[x+1]:
+            return False
+        else:
+            x=x+1
+    else:
+        return True
+    
+
+
+
     
 if __name__ == '__main__':
     # Test out-of-order example
