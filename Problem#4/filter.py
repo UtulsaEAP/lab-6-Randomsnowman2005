@@ -1,13 +1,36 @@
 # Mohamad Ali fakhoury @ Thurs 2pm
 def process_and_print(input_string):
-      # Split into separate strings
-
-    # Convert strings to integers and filter out negative values
-    input_data = 0
-
-    # Sort integers in reverse order
-  
-    # Print sorted integers
+    inputs = input_string.split()
+    x = 0
+    while x < len(inputs):
+     z = int(inputs[x])
+     inputs[x] = z
+     x = x+1 
+    else:
+     inputs.sort(reverse = True)
+     x= 0
+     fin = []
+     while x < len(inputs):
+        if x == len(inputs)-1:
+          if inputs[x]<0:
+            fin.append(str(inputs[x]))
+            x=x+1
+          else:
+            x=x+1
+        elif inputs[x] < 0 and inputs[x+1] >= 0:
+         fin.append(str(inputs[x]))
+         x = x+1
+         z =z+1
+        elif inputs[x] < 0 and inputs[x+1]<0:
+         fin.append(str(inputs[x]))
+         x = x+1 
+         z=z+1
+        else:
+          x=x+1
+     else:
+        print(' '.join(fin))
+        
+   
     
 
 if __name__ == "__main__":
