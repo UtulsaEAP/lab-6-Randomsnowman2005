@@ -1,4 +1,4 @@
-#Mohamad Ali fakhoury @Thurs 2pm
+#Mohamad Ali Fakhoury @Thurs 2pm
 def process_input(input_string):
   inputs = input_string.split()
   x = 0

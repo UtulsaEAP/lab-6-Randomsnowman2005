@@ -1,4 +1,4 @@
-# Mohamad Ali fakhoury @2pm
+# Mohamad Ali Fakhoury Thurs@2pm
 def check_palindrome(user_input):
     inputs = [user_input]
     z=0

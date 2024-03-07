@@ -1,4 +1,4 @@
-# Mohamad Ali fakhoury @ 2pm
+# Mohamad Ali fakhoury @Thurs 2pm
 def in_order(nums):
     x=0
     while x <= len(nums)-2:

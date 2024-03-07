@@ -1,4 +1,4 @@
-# Mohamad ali fakhoury @ 2pm
+# Mohamad ali fakhoury @ Thurs 2pm
 def process_user_contacts(user_input):
     user_contacts = user_input.split()
     contact_dict= {}
